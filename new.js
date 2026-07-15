@@ -3,7 +3,7 @@ console.log("Script.js initializing...")
 
 // this can also be written as 
 
-
+let boxes = document.querySelector(".container").children //this is a html collection have no for each method
 
 console.log(boxes)
 
