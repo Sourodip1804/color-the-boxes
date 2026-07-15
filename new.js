@@ -10,9 +10,9 @@ let boxes = document.querySelector(".container").children //this is a html colle
 // creating a function for the boxes to change color 
 
 function getRandomColor() {
-    let val1 = 233;
-    let val2 = 124;
-    let val3 = 111;
+    let val1 = Math.ceil(0 + Math.random() * 255);
+    let val2 = Math.ceil(0 + Math.random() * 255);
+    let val3 = Math.ceil(0 + Math.random() * 255);
     return `rgb(${val1}, ${val2}, ${val3})`
     
 }
