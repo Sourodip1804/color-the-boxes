@@ -18,5 +18,6 @@ function getRandomColor() {
 }
 Array.from(boxes).forEach((e) => {
     // console.log(e)
-    
+    e.style.backgroundColor = getRandomColor()
+
 })
