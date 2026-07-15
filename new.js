@@ -8,6 +8,8 @@ let boxes = document.querySelector(".container").children //this is a html colle
 // console.log(boxes)
 
 // creating a function for the boxes to change color 
+//Math.random() this is a buildin for generating a number between 1 and 0
+//Math.ceil() this is a buildin for generating a integer number
 
 function getRandomColor() {
     let val1 = Math.ceil(0 + Math.random() * 255);
