@@ -11,6 +11,9 @@ let boxes = document.querySelector(".container").children //this is a html colle
 
 function getRandomColor() {
     let val1 = 233;
+    let val2 = 124;
+    let val3 = 111;
+    
 
 Array.from(boxes).forEach((e) => {
     console.log(e)
