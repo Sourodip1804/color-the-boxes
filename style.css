@@ -1,3 +1,11 @@
+.container{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 23px;
+        }
+
+
 .box{
             display: flex;
             justify-content: center;
