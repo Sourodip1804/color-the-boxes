@@ -9,6 +9,9 @@ let boxes = document.querySelector(".container").children //this is a html colle
 
 // creating a function for the boxes to change color 
 
+function getRandomColor() {
+    let val1 = 233;
+
 Array.from(boxes).forEach((e) => {
     console.log(e)
 })
