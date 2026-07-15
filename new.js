@@ -15,7 +15,7 @@ function getRandomColor() {
     let val3 = 111;
     return `rgb(${val1}, ${val2}, ${val3})`
     
-
+}
 Array.from(boxes).forEach((e) => {
     console.log(e)
 })
