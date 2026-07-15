@@ -16,6 +16,11 @@ function getRandomColor() {
     return `rgb(${val1}, ${val2}, ${val3})`
     
 }
+
+
+// math.random() this is a buildin for generating a number between 1 and 0
+// math.ceil give the integer number
+
 Array.from(boxes).forEach((e) => {
     // console.log(e)
     e.style.backgroundColor = getRandomColor()
