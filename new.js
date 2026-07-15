@@ -5,7 +5,9 @@ console.log("Script.js initializing...")
 
 let boxes = document.querySelector(".container").children //this is a html collection have no for each method
 
-console.log(boxes)
+// console.log(boxes)
+
+// creating a function for the boxes to change color 
 
 Array.from(boxes).forEach((e) => {
     console.log(e)
